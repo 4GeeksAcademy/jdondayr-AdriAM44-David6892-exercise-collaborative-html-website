@@ -1,5 +1,6 @@
-<div class="container mx-auto my-5 d-flex flex-column">
-    <h2>Contact</h2>
+
+<div class="container mx-auto my-5 d-flex flex-column border-top">
+    <h2 class="pt-5">Contact</h2>
     <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent
         commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 
@@ -7,13 +8,22 @@
         
         <div class="modal-body">
             <form>
-                <div class="mb-3">
-                    <label for="recipient-name" class="col-form-label"><b>Your E-mail</b></label>
-                    <input type="text" class="form-control" id="recipient-name" placeholder="Your email">
+                <div class="row mb-3">
+                    <div class="col-3">
+                        <label for="recipient-name" class="col-form-label"><b>Your E-mail</b></label>
+                    </div>
+                    <div class="col-9">
+                        <input type="text" class="form-control" id="recipient-name" placeholder="Your email">
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="message-text" class="col-form-label"><b>Your message</b></label>
-                    <textarea class="form-control" id="message-text" placeholder="Please enter your message here..."></textarea>
+
+                <div class="row mb-3">
+                    <div class="col-3">
+                        <label for="message-text" class="col-form-label"><b>Your message</b></label>
+                    </div>
+                    <div class="col-9">
+                        <textarea class="form-control" id="message-text" placeholder="Please enter your message here..."></textarea>
+                    </div>
                 </div>
             </form>
         </div>
