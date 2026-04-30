@@ -2,7 +2,9 @@
 .tagline {
     height: 50em;
     background-image: url(../img/bg.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-position-y: 90%;
+    background-repeat: no-repeat;
 }
         .tagline h1 {
             font-size: 10em;
